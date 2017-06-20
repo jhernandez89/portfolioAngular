@@ -1,0 +1,25 @@
+.background {
+    padding-bottom: 2%;
+    padding-right: 0 !important;
+}
+.noRightPadding {
+    padding-left: 0 !important;
+}
+.resumeAndInfo {
+    padding-bottom: 24%;
+}
+.topPadding {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 0 !important;
+}
+.textBox {
+    cursor: pointer;
+}
+.noLeftPadding {
+    padding-left: 0 !important;
+}
+.sideNav {
+  position: fixed;
+  padding-top: 3%;
+}
