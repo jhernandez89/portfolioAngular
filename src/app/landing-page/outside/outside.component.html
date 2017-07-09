@@ -1,22 +1,39 @@
+<app-side-nav> </app-side-nav>
 <div class="container-fluid topPadding">
   <div class="row">
     <div class="col-md-2 sideNav noLeftPadding">
-      <app-side-nav> </app-side-nav>
     </div>
     <div class="col-md-1 offset-sm-1">
     </div>
     <div class="col-md-2">
       <div>
-        <img src="../assets/outside/tetrisBanner.png" alt="" width="60%" height="auto" class="img-fluid">
+        <img src="../assets/outside/tetrisBanner.png" alt="logo" class="img-fluid logo">
       </div>
+    </div>
+    <div class="col-md-4 offset-sm-1">
 
+      <div (click)="changeBox()" class="wholeTextbox">
+        <div class="avatarMessages">
+          <div class="onImage">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-3">
+                  <img src="../assets/outside/myHead.png" alt="avatar head" class="img-fluid avatarHead">
+                </div>
+                <div class="col-md-9">
+                  <p class="typewriter">{{typewriter.message}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col-md-5">
-      <img src={{currentText}} alt="textbox" (click)="changeBox()"class="img-fluid textBox">
-    </div>
-    <div class="col-md-2">
-      <img src="../assets/outside/purpleT.png" alt="" class="img-fluid">
-      <img src="../assets/me.png" alt="" class="img-fluid">
+    <div class="col-md-2 d-flex justify-content-end">
+      <div class="meAndDag">
+        <img src="../assets/outside/purpleT.png" alt="" class="img-fluid tetrisBlock d-flex justify-content-center">
+        <img src="../assets/me.png" alt="" class="img-fluid">
+      </div>
     </div>
   </div>
 </div>

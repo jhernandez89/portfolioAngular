@@ -1,5 +1,5 @@
-<div class="container-fluid">
-  <div class="row">
+<div class="container-fluid caveContainer">
+  <div class="row viewHeight">
     <div class="col-md-3"></div>
     <div class="col-md-3">
       <div class="container-fluid">
@@ -18,19 +18,22 @@
         </div>
       </div>
     </div>
-    <div class="col-md-3">
-      <img src="../assets/cave/cave/caveZero.png" alt="" class="img-fluid">
+    <div class="col-md-3 d-flex align-content-end justify-content-center">
+      <img src={{cave}} alt="" class="img-fluid cave d-flex align-self-end">
     </div>
     <div class="col-md-3">
       <div class="container-fluid">
-        <div class="row">
+        <div class="row d-flex flex-column align-content-between flex-wrap ">
           <div class="col-md-3">
-            <img src="../assets/cave/pokeball.png" alt="" class="img-fluid">
+            <img src="../assets/cave/pokeball.png" alt="" class="img-fluid pokeball" on-mouseover="randomPokemon()" on-mouseleave="cave = '../assets/cave/cave/caveZero.png'">
           </div>
-        </div>
-        <div class="row">
+          <div class="col-md-12">
+            <div class="onImage" (click)="changeBox()">
+              <p class="typewriter">{{typewriter.message}}</p>
+            </div>
+          </div>
           <div class="col-md-7">
-            <img src="../assets/cave/redPanda.png" alt="" class="img-fluid">
+            <img src="../assets/cave/redPanda.png" alt="" class="img-fluid redPanda">
           </div>
         </div>
       </div>

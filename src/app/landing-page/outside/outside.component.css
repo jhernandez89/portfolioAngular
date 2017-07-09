@@ -1,25 +1,81 @@
 .background {
-    padding-bottom: 2%;
-    padding-right: 0 !important;
+  padding-bottom: 2%;
+  padding-right: 0 !important;
 }
+
 .noRightPadding {
-    padding-left: 0 !important;
+  padding-left: 0 !important;
 }
+
 .resumeAndInfo {
-    padding-bottom: 24%;
+  padding-bottom: 24%;
 }
+
 .topPadding {
-    padding-top: 4%;
-    padding-bottom: 4%;
-    padding-left: 0 !important;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 0 !important;
 }
+
 .textBox {
-    cursor: pointer;
+  cursor: pointer;
 }
+
 .noLeftPadding {
-    padding-left: 0 !important;
+  padding-left: 0 !important;
 }
+
 .sideNav {
   position: fixed;
   padding-top: 3%;
+}
+
+img {
+  position: relative;
+  width: 100%
+}
+
+.onImage {
+  cursor: pointer;
+  min-width: 100%;
+  border-radius: 20px;
+  font-weight: 900;
+  display: inline-block;
+  letter-spacing: 0.2em;
+  font-size: 23px;
+  color: white;
+  padding: 10px;
+  border: white 6px inset;
+  background: linear-gradient( #316196, #316196, #2a5380, #2a5380, #224367, #224367, #1a3450, #1a3450, #152b42, #152b42);
+}
+
+.typewriter {
+  font-family: 'VT323', monospace;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #f6f6f6;
+}
+
+.avatarHead {
+  padding-top: 7%;
+  padding-bottom: 10%;
+}
+.meAndDag{
+  width: 85%;
+  height: auto;
+}
+.tetrisBlock {
+  padding-bottom: 50%;
+}
+.logo {
+  width: 65%;
+}
+.wholeTextbox {
+  padding-top: 28%;
+  /*padding-left: 16%;*/
 }
