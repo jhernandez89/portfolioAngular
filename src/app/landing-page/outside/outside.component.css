@@ -71,6 +71,7 @@ img {
 }
 .tetrisBlock {
   padding-bottom: 50%;
+  cursor: pointer;
 }
 .logo {
   width: 65%;
