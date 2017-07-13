@@ -9,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OutsideComponent implements OnInit {
   currentText = '../assets/outside/textBoxes/welcome.gif';
+  tetris = '../assets/outside/tetrisBanner.png';
+  purpleT = '../assets/outside/purpleT.png';
   index = 0;
   isFinished = true;
   subscription: Subscription;
