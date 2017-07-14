@@ -1,20 +1,29 @@
-.cave {
-    /*padding-top: 23vh;*/
-    margin-bottom: 24.31vh;
+.cave {}
+
+.onImage {
+  position: absolute;
 }
+
 .caveContainer {
-    min-height: 77vh;
+  min-height: 77vh;
 }
+
 .viewHeight {
-    min-height:77vh;
+  min-height: 77vh;
 }
+
 .pokeball {
-    margin-bottom: 30vh;
+  margin-bottom: 15vh;
+  width: 65%;
 }
+
 .redPanda {
-    width: 100%;
+  width: 64%;
+  margin-bottom: 5vh;
 }
+
 .typewriter {
+  z-index: 100;
   font-family: 'VT323', monospace;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -25,6 +34,7 @@
   user-select: none;
   color: #f6f6f6;
 }
+
 .onImage {
   cursor: pointer;
   min-width: 100%;
@@ -37,4 +47,12 @@
   padding: 10px;
   border: white 6px inset;
   background: linear-gradient( #316196, #316196, #2a5380, #2a5380, #224367, #224367, #1a3450, #1a3450, #152b42, #152b42);
+}
+
+.icons {
+  margin-bottom: 30%;
+  width: 80%;
+}
+.textWidth {
+    height: 24vh;
 }
