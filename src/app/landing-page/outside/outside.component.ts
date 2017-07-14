@@ -93,7 +93,7 @@ export class OutsideComponent implements OnInit {
   }
 
   setImgDivAttributes(imgDiv) {
-    imgDiv.attr('src', `images/${this.flyingGif[this.imgNum]}`);
+    // imgDiv.attr('src', `images/${this.flyingGif[this.imgNum]}`);
     imgDiv.attr('width', '90px');
     imgDiv.attr('height', 'auto');
     imgDiv.attr('left', '-100px');
@@ -109,17 +109,17 @@ export class OutsideComponent implements OnInit {
   putImagesIn(i) {
     return () => {
       this.defineRandomVariables(i);
-      const imgDiv = $(`<img id=flyingAnimal class=flying${i}>`);
+      // const imgDiv = $(`<img id=flyingAnimal class=flying${i}>`);
 
-      this.setImgDivAttributes(imgDiv);
+      // this.setImgDivAttributes(imgDiv);
 
-      $(`.flying${i}`).css({
-        'margin-top': `${this.marginTop}px`,
-      });
+      // $(`.flying${i}`).css({
+      //   'margin-top': `${this.marginTop}px`,
+      // });
 
-      imgDiv.css('left', (-this.width)).animate({
-        left: this.screenWidth + 3000,
-      }, this.duration);
+      // imgDiv.css('left', (-this.width)).animate({
+      //   left: this.screenWidth + 3000,
+      // }, this.duration);
     };
   }
 
