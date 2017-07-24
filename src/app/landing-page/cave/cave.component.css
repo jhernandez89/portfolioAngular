@@ -56,3 +56,73 @@
 .textWidth {
     height: 24vh;
 }
+.absolute {
+  /*position: absolute;*/
+}
+
+.crystal {
+  width: auto%;
+  height: 19%;;
+  /*margin-bottom: 50%;*/
+}
+.absolutePos {
+  position: absolute;
+  top: 60%;
+    right: 0;
+    width: 90%;
+    height: 40vh;
+    /*border: 3px solid #73AD21;*/
+}
+.relativePos {
+    /*position: relative;*/
+    /*display: flex;
+    align-self: center;
+    z-index: 100;
+    width: 80%;
+    height: auto;
+    margin-left: 3%;
+    margin-top: 0%;
+    margin-bottom: 3.7%;*/
+    /*width: 100vw;*/
+    /*height: 40vh;*/
+    /*border: 9px solid #73AD;*/
+}
+.dimentions {
+  width: 100vw;
+  height: 40vh;
+}
+.pinkCrystal {
+  margin-top: 5%;
+  margin-left: 3%;
+  margin-right: 0%;
+}
+.blueCrystal {
+  margin-top: 12%;
+  margin-left: -7%;
+  margin-right: 0%;
+}
+.redCrystal {
+  margin-top: 3%;
+  margin-left: -3%;
+  margin-right: 0%;
+}
+.greenCrystal {
+  margin-top: 15%;
+  margin-left: 6%;
+  margin-right: 0%;
+}
+.yellowCrystal {
+  margin-top: 1%;
+  margin-left: -5%;
+  margin-right: 0%;
+}
+.lightBlueCrystal {
+  margin-top: 12%;
+  margin-left: -2%;
+  margin-right: 0%;
+}
+.purpleCrystal {
+  margin-top: 6%;
+  margin-left: 0%;
+  margin-right: 6%;
+}
