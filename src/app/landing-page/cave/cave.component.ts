@@ -28,6 +28,9 @@ export class CaveComponent implements OnInit {
     'Red Panda: In this section, you can learn more about the creator.',
     'Red Panda: Just hover your mouse over those objects on and over the desk',
   ]
+  diplomaText = 'Jeff got his bachelor in Socioloy at the University of Texas at San Antonio.';
+  TAText = 'Jeff has volunteered as a TA for javascript intro courses.  Teaching is the best way to solidify knowledge.'
+  codingText = "Jeff went to Galvanize where he was certified as a full stack web developer where he learend "
   differentCaves = [
     '../assets/cave/cave/caveOne.png',
     '../assets/cave/cave/caveTwo.png',
@@ -67,6 +70,33 @@ export class CaveComponent implements OnInit {
     } else {
       this.hurryUp()
     }
+  }
+    diplomaChangeBox() {
+      this.subscription = typewriter(this.diplomaText, this.typewriter).subscribe(
+        () => undefined,
+        () => undefined,
+        () => {
+          this.typewriter.delay = 10;
+        }
+      );
+  }
+      TAChangeBox() {
+      this.subscription = typewriter(this.TAText, this.typewriter).subscribe(
+        () => undefined,
+        () => undefined,
+        () => {
+          this.typewriter.delay = 10;
+        }
+      );
+  }
+      codingChangeBox() {
+      this.subscription = typewriter(this.codingText, this.typewriter).subscribe(
+        () => undefined,
+        () => undefined,
+        () => {
+          this.typewriter.delay = 10;
+        }
+      );
   }
   hurryUp() {
     this.typewriter.delay = 10;
