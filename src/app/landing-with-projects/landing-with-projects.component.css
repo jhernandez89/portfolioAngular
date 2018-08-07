@@ -1,0 +1,17 @@
+.outside {
+    /*background-color: rgb(169, 216, 255);
+  color:rgb(34, 98, 119);*/
+    background: linear-gradient(rgb(169, 216, 199) 60%, rgb(66, 150, 84) 40%);
+}
+.water {
+    /*position: relative;*/
+    background: linear-gradient(rgb(59, 59, 203) 60%, rgb(44, 57, 94) 40%);
+}
+.cave {
+    /*position: relative;*/
+    background: linear-gradient(rgba(15, 6, 31, 0.73) 60%, rgb(38, 34, 43) 40%);
+}
+.sideNav {
+  position: fixed;
+  padding-top: 3%;
+}

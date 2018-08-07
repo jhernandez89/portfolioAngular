@@ -10,9 +10,12 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
+import { LandingWithProjectsComponent } from './landing-with-projects/landing-with-projects.component';
 
 const appRoutes: Routes = [
-  { path: '', component: LandingPageComponent},
+  { path: '', component: LandingPageComponent },
+  { path: 'projects', component: LandingWithProjectsComponent }
+
 ]
 
 
@@ -24,6 +27,7 @@ const appRoutes: Routes = [
     WaterComponent,
     CaveComponent,
     SideNavComponent,
+    LandingWithProjectsComponent,
   ],
   imports: [
     BrowserModule,
